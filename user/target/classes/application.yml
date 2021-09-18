@@ -1,0 +1,22 @@
+#配置数据源
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/jscore?serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  mvc:
+    static-path-pattern: /**
+#配置mybatis
+mybatis:
+  #配置映射文件的路径
+  mapper-locations: classpath:/mapper/*.xml
+  #给实体类起个别名：别名就是它的类名
+  type-aliases-package: com.jscore.bean
+#控制台打印sql语句
+logging:
+  level:
+    com.mukun.albumserver.dao: debug
+#配置端口号
+server:
+  port: 8081
