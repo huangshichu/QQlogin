@@ -1,0 +1,8 @@
+﻿  Main.cpp
+  Test.cpp
+C:\Users\hsc\Desktop\QQLogin\Test\Test.cpp(58,23): warning C4477: “wprintf_s”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 1 拥有了类型“const _TCHAR *”
+C:\Users\hsc\Desktop\QQLogin\Test\Test.cpp(58,23): message : 请考虑在格式字符串中使用“%hs”
+C:\Users\hsc\Desktop\QQLogin\Test\Test.cpp(58,23): message : 请考虑在格式字符串中使用“%Ts”
+C:\Users\hsc\Desktop\QQLogin\Test\Test.cpp(58,23): message : Visual C++ 使用非标准语义时会出现此警告
+  正在生成代码...
+  Test.vcxproj -> C:\Users\hsc\Desktop\QQLogin\QQLogin\Test.exe
