@@ -1,3 +1,0 @@
-Test为Demo
-QQLogin存放exe dll以及xml 图片
-user为java服务端
