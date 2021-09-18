@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Window size="450,320" caption="10,10,10,10" sizebox="0,0,0,0" mininfo="450,320" maxinfo="450,320">
+	<Font shared="true" id="1" name="微软雅黑" size="18" />
+	<VerticalLayout>
+		<HorizontalLayout height="120" bkcolor2="#FF0000FF" bkcolor="#FF66FFFF">
+			<HorizontalLayout width="80" height="40" bkimage="logo.png">
+			</HorizontalLayout>
+			<Control />
+			<HorizontalLayout width="30" height="30">
+				<Button name="minbtn" bkcolor="#00000000" normalimage="min.png"/>
+			</HorizontalLayout>
+			<HorizontalLayout width="30" height="30">
+				<Button name="closebtn" bkcolor="#00000000" normalimage="close.png"/>
+			</HorizontalLayout>
+		</HorizontalLayout>
+		<HorizontalLayout height="200" bkcolor="#FFF8F8FF">
+			<VerticalLayout width="100"></VerticalLayout>
+			<VerticalLayout width="250">
+				<HorizontalLayout height="40"></HorizontalLayout>
+				<HorizontalLayout height="30">
+					<VerticalLayout width="25" bkimage="name.png"></VerticalLayout>
+					<Edit name="name" width="225" font="1" ></Edit>
+				</HorizontalLayout>
+				<HorizontalLayout bkcolor="#FF000000" height="1"></HorizontalLayout>
+				<HorizontalLayout height="30">
+					<VerticalLayout width="25" bkimage="password.png"></VerticalLayout>
+					<Edit name="password" width="225" font="1" password="true"></Edit>
+				</HorizontalLayout>
+				<HorizontalLayout bkcolor="#FF000000" height="1"></HorizontalLayout>
+				<HorizontalLayout height="40" >
+					<Button name="loginbtn" bkcolor="#FF1E90FF" text="登录" borderround="7,7"></Button>
+				</HorizontalLayout>
+			</VerticalLayout>
+		</HorizontalLayout>
+	</VerticalLayout>
+</Window>
