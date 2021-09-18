@@ -1,0 +1,6 @@
+﻿  Test.cpp
+D:\c++teach\duilib_teach-master\Test\Test.cpp(79,102): error C2440: “初始化”: 无法从“const char [73]”转换为“DuiLib::CDuiString”
+D:\c++teach\duilib_teach-master\Test\Test.cpp(79,102): message : 无构造函数可以接受源类型，或构造函数重载决策不明确
+D:\c++teach\duilib_teach-master\Test\Test.cpp(103,67): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“char [1000]”转换为“LPCWSTR”
+D:\c++teach\duilib_teach-master\Test\Test.cpp(103,36): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
